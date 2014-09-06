@@ -16,7 +16,7 @@ Ideally, you will cron this to run regularly (daily or weekly) so you'll always 
 
 You need to add four things to the script.
 
-1. your key for the Google PageSpeed Insights API
+1. your key for the Google PageSpeed Insights API, available [here](https://developers.google.com/speed/docs/insights/v1/getting_started)
 2. number between 1 and 100 that you consider an acceptable Google PageSpeed Insights score for the sites you're checking
 3. one or more sites to check
 4. an email address to send the notifications
