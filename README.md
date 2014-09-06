@@ -1,4 +1,4 @@
-# [PageSpeedInsightsChecker]
+# PageSpeedInsightsChecker
 
 
 
