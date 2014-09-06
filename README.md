@@ -1,12 +1,18 @@
-PageSpeedInsightsChecker
-========================
+# [PageSpeedInsightsChecker]
 
-Does three things:
+
+
+### facilitating the adoption of a culture of continual improvement in web app performance
+
+This script does three things...
 
 1. Checks the Google Page Speed Insights desktop and mobile scores for an array of sites you provide
 2. Sends email notification when scores are below a pre-set threshold
 3. Generates a "dashboard" web page with the scores
 
+Ideally, you will cron this to run regularly (daily or weekly) so you'll always be proactively updated of your sites' performance.
+
+### what you do
 
 You need to add four things to the script.
 
@@ -15,6 +21,8 @@ You need to add four things to the script.
 3. one or more sites to check
 4. an email address to send the notifications
 
+
+### screenshots
 
 Here's what the web page dashboard looks like when the script is done running.
 
