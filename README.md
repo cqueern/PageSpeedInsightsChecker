@@ -16,14 +16,14 @@ Your organization will be able to more easily monitor these performance scores a
 
 ### what you do
 
-1. You need to add four things to PageSpeedInsightschecker.php
+* You need to add four things to PageSpeedInsightschecker.php
 
    * your key for the Google PageSpeed Insights API, available [here](https://developers.google.com/speed/docs/insights/v1/getting_started)
    * number between 1 and 100 that you consider an acceptable Google PageSpeed Insights score for the sites you're checking
    * one or more sites to check
    * an email address to send the notifications
 
-2. Cron PageSpeedInsightschecker.php so it goes off on a regular basis
+* Cron PageSpeedInsightschecker.php so it goes off on a regular basis
 
 ### screenshots
 
