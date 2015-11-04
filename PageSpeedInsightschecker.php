@@ -55,6 +55,7 @@ print<<<_HTML_
 <meta charset="utf-8" />
 <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name=viewport content="width=device-width, initial-scale=1">
 <link rel="preload" href="//fonts.googleapis.com/css?family=PT+Sans">
 <link rel="preload" href="//fonts.googleapis.com/css?family=Open+Sans:400,800">
 <link rel="preload" href="/css/flexslider.css">
