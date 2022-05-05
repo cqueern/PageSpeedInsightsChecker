@@ -122,7 +122,7 @@ $message = $message . "If you would like to see the full report, which includes 
 $queryTimeRatio = $time/count($hostarray);
 $roundedQueryTimeRatio = round($queryTimeRatio,2);
 echo "<hr>\r\n<footer>\r\n";
-echo "<table>\r\n<tr class=\"row\">\r\n<td>\r\n<img src=\"/img/clock_32.png\" height=\"32\" width=\"32\">\r\n</td>\r\n<td>\r\n<p class=\"main\">This page took $roundedTime seconds to run, and we queried for ".count($hostarray)." host(s). On average, the ratio between the number of seconds per host and the number of hosts should be approximately 7 to 1. Ratio in this case: $roundedQueryTimeRatio. </p>\r\n</td>\r\n</tr>\r\n</table>\r\n"; 
+echo "<table>\r\n<tr class=\"row\">\r\n<td>\r\n\r\n</td>\r\n<td>\r\n<p class=\"main\">This page took $roundedTime seconds to run, and we queried for ".count($hostarray)." host(s). On average, the ratio between the number of seconds per host and the number of hosts should be approximately 7 to 1. Ratio in this case: $roundedQueryTimeRatio. </p>\r\n</td>\r\n</tr>\r\n</table>\r\n"; 
 echo "</html>";
 //done writing the page output after the lines above
 //that's all folks
